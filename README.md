@@ -1,3 +1,4 @@
 # DataStructureAndAlgorithm-python
-This repo consist the data structure and algorithm  in pthon.
+---
+This repo consist the data structure and algorithm  in python.
 
