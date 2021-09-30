@@ -34,6 +34,7 @@ setrecursionlimit(100)
 
 def factorial(n:int) -> int  :
     try:
+
         if n in [0,1]:
                 return 1                 #base condition
         else :
@@ -42,24 +43,6 @@ def factorial(n:int) -> int  :
         print("Stack overflow")
         exit()      
 
-
-def febo(number: int)-> int :
-    try:
-            
-        if number in [0,1]:
-            return number
-        else:
-            return febo(number-1)+febo(number-2)
-    except RecursionError:
-        print("Stack overflow")
-        exit()    
-    
-    
-    
-    
-    
-    
-    
 if __name__== '__main__':
     try:
         number = int(input("Enter the number:"))
@@ -67,7 +50,7 @@ if __name__== '__main__':
         #     print("The factorial of negative number was given which doesn't exit ") 
         # else:
         #     print(factorial(number))
-        print(febo(n=number))
+        print(factorial(n=number))
     except BaseException:
         print("Value of n must be positive integer ")
 # recursion use extra overhead call stack

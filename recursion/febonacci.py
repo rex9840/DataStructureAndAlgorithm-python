@@ -23,5 +23,3 @@ if __name__ == "__main__":
         print(fibonacci(number=num))
     except ValueError as error:
         print("index postion number must be non negative ")
-    
-    
